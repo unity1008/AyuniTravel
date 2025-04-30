@@ -1,0 +1,40 @@
+[11-Apr-2025 07:01:45 Europe/Berlin] Fetching hotels for locationID: 1
+[11-Apr-2025 07:01:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\design\new2.php:33
+Stack trace:
+#0 C:\xampp\htdocs\design\new2.php(33): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\design\new2.php on line 33
+[11-Apr-2025 07:02:23 Europe/Berlin] Fetching hotels for locationID: 1
+[11-Apr-2025 07:02:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:23 Europe/Berlin] Hotels fetched: 4
+[11-Apr-2025 07:02:31 Europe/Berlin] Fetching hotels for locationID: 2
+[11-Apr-2025 07:02:31 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:31 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:31 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:31 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:31 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\design\new2.php on line 51
+[11-Apr-2025 07:02:31 Europe/Berlin] Hotels fetched: 5
+[11-Apr-2025 07:06:01 Europe/Berlin] Fetching hotels for locationID: 1
+[11-Apr-2025 07:06:01 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\design\new2.php:40
+Stack trace:
+#0 C:\xampp\htdocs\design\new2.php(40): mysqli_stmt->bind_param('i', 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\design\new2.php on line 40
+[11-Apr-2025 07:07:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\design\new2.php:35
+Stack trace:
+#0 C:\xampp\htdocs\design\new2.php(35): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\design\new2.php on line 35
+[11-Apr-2025 07:11:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\design\new.php:28
+Stack trace:
+#0 C:\xampp\htdocs\design\new.php(28): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\design\new.php on line 28
+[11-Apr-2025 07:24:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\design\new.php:28
+Stack trace:
+#0 C:\xampp\htdocs\design\new.php(28): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\design\new.php on line 28
